@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Atharva's Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+    }
+
+       .profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 5px solid #00ffe1;
+  box-shadow: 0 0 15px #00ffe1;
+}
+
+   
+
+    .profile-pic:hover {
+      transform: scale(1.1);
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 40px;
+      margin-top: 20px;
+      text-shadow: 0 0 5px #00ffe1;
+    }
+
+    p.bio {
+      margin: 15px 0;
+      font-size: 18px;
+      max-width: 500px;
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    .skills {
+      margin: 20px 0;
+    }
+
+    .skills h2 {
+      text-decoration: underline;
+      color: #00ffe1;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .skills li {
+      background-color: rgba(0, 255, 225, 0.1);
+      border: 1px solid #00ffe1;
+      padding: 10px 20px;
+      border-radius: 15px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .skills li:hover {
+      background-color: #00ffe1;
+      color: #000;
+      transform: scale(1.1);
+    }
+
+    .buttons a {
+      text-decoration: none;
+      color: white;
+      margin: 10px;
+    }
+
+    .buttons button {
+      background-color: #00ffe1;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 25px;
+      box-shadow: 0 0 10px #00ffe1;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .buttons button:hover {
+      background-color: #fff;
+      color: #00ffe1;
+      box-shadow: 0 0 20px #00ffe1;
+      transform: translateY(-3px);
+    }
+
+    @media (max-width: 500px) {
+      .skills ul {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <img class="profile-pic" src="WhatsApp Image 2025-06-22 at 12.34.22 PM.jpeg" alt="Atharva">
+
+  <h1>Atharva</h1>
+
+  <p class="bio">I'm a computer science student building awesome websites using HTML,CSS — and vibes.</p>
+
+  <div class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>Python</li>
+      <li>C</li>
+    </ul>
+  </div>
+
+  <div class="buttons">
+    <a href="https://github.com/athrva6" target="_blank"><button>GitHub</button></a>
+    <a href="https://linkedin.com/" target="_blank"><button>LinkedIn</button></a>
+    <a href="https://www.instagram.com/_atharva.__08/" target="_blank"><button>Instagram</button></a>
+  </div>
+
+</body>
+</html>
